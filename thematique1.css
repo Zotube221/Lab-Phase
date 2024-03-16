@@ -1,0 +1,9 @@
+.sectthematique1{
+    width: 100%;
+    height: 100vh;
+    background-color: #D3AC2B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

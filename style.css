@@ -1,0 +1,122 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*  le header de ma page */
+
+
+.head{
+    width: 100%;
+    height: 100px;
+    background-color: #354649;
+    position: fixed;
+}
+.nav1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    list-style-type: none;
+    text-decoration: none;
+}
+.teranga{
+    color: #A3C6C4;
+    font-size: 35px;
+    font-weight: bold;
+}
+.quiz{
+    color: #D3AC2B;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.h11{
+    margin-left: 5%;
+}
+.ul1{
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.linknav{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 1s;
+}
+.linknav:hover{
+    font-size: 23px;
+    color: #D3AC2B;
+}
+.li1{
+    list-style-type: none;
+    padding: 5%;
+}
+
+/*la premiere section de ma page */
+
+.sect1{
+    width: 100%;
+    height: 100vh;
+    background-color: #6C7A89;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.p1{
+    color: #D3AC2B;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.card0{
+    width: 250px;
+    height: 250px;
+    background-color: #354649;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.divp{
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+}
+.h1quiz{
+    font-size: 25px;
+    font-weight: bold;
+    color: #D3AC2B;
+    text-align: center;
+    line-height: 200%;
+}
+.bande{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.thematique{
+    list-style-type:none;
+    text-decoration: none;
+    color: white;
+}
